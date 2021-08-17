@@ -9,7 +9,7 @@ import countryCardTpl from './templates/country-card.hbs';
 import listCountriesTpl from './templates/list-countries.hbs';
 import refs from './js/refs';
 
-refs.inputRef.addEventListener('input', debounce(onSearch, 500));
+refs.inputRef.addEventListener('input', debounce(onSearch, 1500));
 
 function onSearch(e) {
   refs.inputRef.textContent = e.target.value;
