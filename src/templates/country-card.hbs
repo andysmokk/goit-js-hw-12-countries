@@ -1,5 +1,4 @@
 {{#each this}}
-<div class="card">
     <h1 class="card">{{name}}</h1>
     <div class="card-flex">
         <div class="card-box">
@@ -12,7 +11,8 @@
                 {{/each}}
             </ul>
         </div>
-        <img class="card-img" src="{{flag}}" alt="{{name}}" width="250">
+        <div class="card-box">
+            <img class="card-img" src="{{flag}}" alt="{{name}}" width="300">
+        </div>
     </div>
-</div>
 {{/each}}
