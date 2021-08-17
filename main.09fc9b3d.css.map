@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/main.scss"],"names":[],"mappings":"AAAA,KACE,UAAW,CACX,iBAAkB,CAClB,kBAAmB,CACnB,gBAAiB,CACjB,kBAGF,MACE","file":"main.09fc9b3d.css","sourceRoot":"../src","sourcesContent":["body {\n  width: 100%;\n  padding-left: 15px;\n  padding-right: 15px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\ninput {\n  width: 550px;\n}\n"]}
