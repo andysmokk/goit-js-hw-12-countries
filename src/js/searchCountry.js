@@ -1,7 +1,7 @@
 import getRefs from './get-refs';
 import renderCountryCard from './renderCountry';
 import onFetchError from './fetchError';
-import API from './api-service';
+import API from './fetchCountries';
 
 const refs = getRefs();
 
